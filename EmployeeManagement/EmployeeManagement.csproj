@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\Views\**" />
+    <Content Remove="wwwroot\Views\**" />
+    <EmbeddedResource Remove="wwwroot\Views\**" />
+    <None Remove="wwwroot\Views\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200124114931_AddPhotoPathColumn.cs" />
+    <Compile Remove="Migrations\20200124114931_AddPhotoPathColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200124120229_AddPhotoPathNewColumn.cs" />
+    <Compile Remove="Migrations\20200124120229_AddPhotoPathNewColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200124121019_AddPhotoPathColumn.cs" />
+    <Compile Remove="Migrations\20200124121019_AddPhotoPathColumn.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+</Project>
