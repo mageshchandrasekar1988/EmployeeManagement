@@ -52,6 +52,11 @@ namespace EmployeeManagement
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
+            }
             app.UseStaticFiles(); // If your using static files, you have to specfiy the USEStaticFiles() middleware
             app.UseMvc(routs => {
                 routs.MapRoute("Default", "{controller=Home}/{action=Index}/{id?}");

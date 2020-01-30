@@ -27,3 +27,6 @@ D:\dotnet\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Vi
 D:\dotnet\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 D:\dotnet\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\_ViewStart.g.cshtml.cs
 D:\dotnet\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
+D:\dotnet\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\EmployeeNotFound.g.cshtml.cs
+D:\dotnet\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\NotFound.g.cshtml.cs
+D:\dotnet\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
